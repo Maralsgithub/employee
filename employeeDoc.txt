@@ -1,0 +1,30 @@
+GET ALL
+url/api/employee
+
+GET BY ID
+url/api/employee/{id}
+
+POST
+url/api/employee/create
+in body 
+{
+     "name": "Ali",
+    
+     "surname": "Aliev",
+    
+     "salary": 600.0,
+}
+
+PUT
+url/api/employee/update/{id}
+in body
+{
+     "name": "Ali",
+    
+     "surname": "Aliev",
+    
+     "salary": 1000.0,
+}
+
+DELETE
+url/api/employee/delete/{id}
